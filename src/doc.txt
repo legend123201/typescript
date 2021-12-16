@@ -1,0 +1,4 @@
+- dùng "export {};" ở đầu file để nó ko tự động kiểm tra lỗi ở tất cả các file chung với nhau.
+ví dụ: file A mình khởi tạo biến "name", file B mình cũng khởi tạo biến name thì nó bị lỗi.
+
+- "printWidth": 100 ở file .prettierrc nghĩa là quá 100 ô kí tự nó sẽ xuống dòng, mình cứ để thuộc tính này số lớn chút đỡ phải xuống hàng nhìn đau cả mắt

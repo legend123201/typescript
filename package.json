@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@types/node": "^16.11.12",
+    "ts-lib": "^0.0.5",
+    "ts-node": "^10.4.0"
+  },
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "learning typescript",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.3"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend123201/typescript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Luu Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legend123201/typescript/issues"
+  },
+  "homepage": "https://github.com/legend123201/typescript#readme"
+}

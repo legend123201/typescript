@@ -1,0 +1,18 @@
+- package:
+(npm i typescript ts-node ts-lib @types/node)
++ typescript: lib typescript compiler. Khi cài ts ở local thì dùng lệnh "npx tsc ..." thay vì global xài "tsc ...".
++ ts-node: hỗ trợ chuyển từ ts sang js rồi chạy luôn. Khi cài ts-node ở local thì dùng lệnh "npx ts-node ..." thay vì global xài "ts-node ...".
++ ts-lib: Easy Frontend bảo cài cho chắc.
++ @types/node: Easy Frontend bảo cài cho chắc.
+
+- tạo 1 file là .prettierrc rồi vào trang prettier.io => playground => chọn --parser: typescript (ở tab Global) và tick vào --single-quote (ở tab Common) => copy config JSON => paste vào file vừa tạo và thêm dòng ""parser": "typescript"" vào vì nó sẽ ko tự có.
+
+- npm init để tạo project, nó lưu cấu hình trong file package.json. Mình phải khai báo tên author, license, ... Cái mình mới thấy đó là "test command", thì mình để giá trị là "jest --coverage".
+
+- chạy 2 lệnh để xài ts-jest, cái này trên trang chủ của nó có.
+npm install --save-dev jest typescript ts-jest @types/jest
+npx ts-jest config:init
+
+- tạo ra file tsconfig bằng cách dùng lệnh "npx tsc --init", file này để cấu hình typescript sẽ bắt lỗi như thế nào cho mình.
+
+- ctrl + shift + p => jest start all runners để chạy mọi test case. muốn tắt thì jest stop all runners.
